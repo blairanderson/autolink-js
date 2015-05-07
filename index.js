@@ -21,7 +21,7 @@
   // -------------
   var slice = [].slice;
 
-  autoLink = function(target) {
+  autoLink.link = function(target) {
     var k, linkAttributes, option, options, pattern, v;
     options = 2 <= arguments.length ? slice.call(arguments, 1) : [];
 

@@ -9,7 +9,7 @@ after including either index.js to your page, it works like this:
 
 ```javascript
 // Input
-autoLink("This is a link to Google http://google.com")
+autoLink.link("This is a link to Google http://google.com")
 
 // Output
 "This is a link to Google <a href='http://google.com'>http://google.com</a>"
@@ -21,7 +21,7 @@ You can pass any additional HTML attributes to the anchor tag with a JavaScript 
 
 ```javascript
 // Input
-autoLink("This is a link to Google http://google.com", { target: "_blank", rel: "nofollow", id: "1" })
+autoLink.link("This is a link to Google http://google.com", { target: "_blank", rel: "nofollow", id: "1" })
 
 // Output
 "This is a link to Google <a href='http://google.com' target='_blank' rel='nofollow' id='1'>http://google.com</a>"
@@ -33,7 +33,7 @@ Callback option can be used to redefine how links will be rendered.
 
 ```javascript
 // Input
-autoLink("This is a link to image http://example.com/logo.png", {
+autoLink.link("This is a link to image http://example.com/logo.png", {
   callback: function(url) {
     return /\.(gif|png|jpe?g)$/i.test(url) ? '<img src="' + url + '">' : null;
   }
