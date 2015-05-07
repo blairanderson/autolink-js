@@ -63,3 +63,11 @@ full-featured example of using with jQuery.
 
 After cloning this repository, simply open test/suite.html in your web
 browser. The tests will run automatically.
+
+### Non-String-Prototype/Node.js Version?
+
+[blairanderson/autolink-js](https://github.com/blairanderson/autolink-js) 
+
+Can be used with browser and node.
+With browser, it creates a global `autoLink` that has a `link` function.
+With node, after `autoLink = require('autolink-js')` then you use `autoLink.link("string with http://link.com")`
