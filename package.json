@@ -1,0 +1,23 @@
+{
+  "name": "autolink-js",
+  "version": "1.0.0",
+  "description": "a tiny tool to find URLs in a string of text and hyperlink them",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blairanderson/autolink-js.git"
+  },
+  "author": "Blair Anderson <Blair81@gmail.com> (http://www.blairanderson.co/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blairanderson/autolink-js/issues"
+  },
+  "homepage": "https://github.com/blairanderson/autolink-js"
+}
