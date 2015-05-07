@@ -3,6 +3,12 @@
 autolink-js is a small tested JavaScript tool that takes
 a string of text, finds URLs within it, and hyperlinks them.
 
+## Why?
+
+The original [bryanwoods/autolink-js](https://github.com/bryanwoods/autolink-js) adds an `autolink` function to `String.prototype`
+This does not. it can be used with node by exporting an `autoLink` object with a `link` function.
+With browsers it will create a global `autoLink` object.
+
 ### Basic Usage
 
 after including either index.js to your page, it works like this:
